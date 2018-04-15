@@ -23,10 +23,15 @@ __Bayes Rule__
 
 P(A|B) = (Pr(B|A)Pr(A)) / (Pr(B|A)Pr(A)+Pr(B|~A)Pr(~A))
 
-1. Be positive
-     - 
-     - f
-
+1. Be positive (The probabilty the test identifies someone has the condition given a disease rate of 0.5%)
+     ```
+     A = (Actually Positive) People who have it that test-positive: (0.005)(0.98) = 0.0049
+     A'= (False Positive) People who don't have it but test-positive: (0.995)(0.1) = 0.0995
+     
+     actual_positive + false_positive: 0.0049 + 0.0995 = 0.1044
+     
+     ```
+     __The rate the test identifies someone with the disease is 10.44%__
 2. Correctly diagnose a sufferer of Thripshaw's
 3. Correctly identify a non-sufferer of Thripshaw's
 4. Misclassify the person
