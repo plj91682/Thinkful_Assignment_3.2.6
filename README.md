@@ -12,12 +12,12 @@ Calculate the probability that the test will:
 
 __Given Facts__
 
-
 -  98% -> (for sufferers) The test Accuracy Rate: The test confirms you *__Do Have__* the condition
--   2% -> (for sufferers) The test Error Rate: The test *__incorrectly__* confirms you don't have the condition
+-  02% -> (for sufferers) The test Error Rate: The test *__incorrectly__* confirms you don't have the condition
 -  10% -> (for non-sufferers) The test Error Rate: the test *__incorrectly__* confirms you Do Have the condition 
 -  90% -> (for non-sufferers) The test Accuracy Rate: the test confirms you *__Don't Have__* the condition
 - 0.5% -> The rate the general population has the condition
+- 99.5% -> The rate the general population won't have the condition
 
 __Bayes Rule__
 
