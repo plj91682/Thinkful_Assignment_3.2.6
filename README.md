@@ -13,7 +13,21 @@ Calculate the probability that the test will:
 __Given Facts__
 
 
-- 98% -> (for sufferers) The test Accuracy Rate: The test confirms you *__Do Have__* the condition
-- 02% -> (for sufferers) The test Error Rate: The test *__incorrectly__* confirms you don't have the condition
-- 10% -> (for non-sufferers) The test Error Rate: the test *__incorrectly__* confirms you have the condition 
-- 90% -> (for non-sufferers) The test Accuracy Rate: the test confirms you *__Don't Have__* the condition
+-  98% -> (for sufferers) The test Accuracy Rate: The test confirms you *__Do Have__* the condition
+-   2% -> (for sufferers) The test Error Rate: The test *__incorrectly__* confirms you don't have the condition
+-  10% -> (for non-sufferers) The test Error Rate: the test *__incorrectly__* confirms you Do Have the condition 
+-  90% -> (for non-sufferers) The test Accuracy Rate: the test confirms you *__Don't Have__* the condition
+- 0.5% -> The rate the general population has the condition
+
+__Bayes Rule__
+
+P(A|B) = (Pr(B|A)Pr(A)) / (Pr(B|A)Pr(A)+Pr(B|~A)Pr(~A))
+
+1. Be positive
+     - 
+     - f
+
+2. Correctly diagnose a sufferer of Thripshaw's
+3. Correctly identify a non-sufferer of Thripshaw's
+4. Misclassify the person
+
