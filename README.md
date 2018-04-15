@@ -29,10 +29,14 @@ P(A|B) = (Pr(B|A)Pr(A)) / (Pr(B|A)Pr(A)+Pr(B|~A)Pr(~A))
      A'= (False Positive) People who don't have it but test-positive: (0.995)(0.1) = 0.0995
      
      actual_positive + false_positive: 0.0049 + 0.0995 = 0.1044
-     
      ```
      __The rate the test identifies someone with the disease is 10.44%__
+     
 2. Correctly diagnose a sufferer of Thripshaw's
+     ```
+     This was given in the scenario prompt
+     ```
+     __98% -> (for sufferers) The test Accuracy Rate: The test confirms you *__Do Have__* the condition__
 3. Correctly identify a non-sufferer of Thripshaw's
 4. Misclassify the person
 
