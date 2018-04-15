@@ -37,6 +37,22 @@ P(A|B) = (Pr(B|A)Pr(A)) / (Pr(B|A)Pr(A)+Pr(B|~A)Pr(~A))
      This was given in the scenario prompt
      ```
      __98% -> (for sufferers) The test Accuracy Rate: The test confirms you *__Do Have__* the condition__
+     
 3. Correctly identify a non-sufferer of Thripshaw's
+     ```
+     This was given in the scenario prompt
+     ```
+     __90% -> (for non-sufferers) The test Accuracy Rate: the test confirms you *__Don't Have__* the condition__
+     
 4. Misclassify the person
+     ```
+         The error - rate of the test can be found by find its accuracy - rate and subtracting it from 100% :
+         
+         Accuracy Rate: 100 * ((0.98 * 0.005) + (.90 * 0.995)) = 90.04%
+         
+         Error Rate: 100% - 90.04% = 9.96%
+     ```
+     __The Error-Rate for the test is: 9.96%__
+
+
 
